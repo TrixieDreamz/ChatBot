@@ -78,7 +78,7 @@ def response(user_response):
     return robo_response
 
 flag = True
-print("Hi, my name is Jimmeh and I am going to give you some bad advice.")
+print("Hi, my name is Jimmeh and I am a cowboy. Secretly I am also an alien.  Ask me something.")
 
 while flag:
     user_response = input()

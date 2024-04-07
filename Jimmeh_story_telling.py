@@ -16,6 +16,7 @@ mysterious_objects = ["magical amulet", "enchanted map", "mysterious potion", "a
 magical_creatures = ["unicorn", "phoenix", "mermaid", "griffin"]
 wishes = ["become the greatest hero", "bring peace to the world", "find true love", "restore balance"]
 kingdoms = ["Fantasia", "Eldoria", "Grimdor", "Mystara"]
+actions = ["save the kingdom", "defeat the villain", "rescue a friend", "uncover a secret"]
 
 # Story templates with placeholders
 story_templates = [
@@ -48,7 +49,8 @@ def generate_story():
         wish_1=random.choice(wishes),
         wish_2=random.choice(wishes),
         wish_3=random.choice(wishes),
-        kingdom=random.choice(kingdoms)  # Include the kingdom variable here
+        kingdom=random.choice(kingdoms),
+        action=random.choice(actions)  # Include the action variable here
     )
 
     return story
